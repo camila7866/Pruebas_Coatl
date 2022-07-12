@@ -17,7 +17,7 @@ public class TraccionCom extends CommandBase {
 
   @Override
   public void execute() {
-    aux_Traccion.Velocity_Control(RobotContainer.Control0.getRightX(), RobotContainer.Control0.getRightY(), RobotContainer.Control0.getLeftX(), RobotContainer.Control0.getLeftY());
+    aux_Traccion.Drive_Joysticks(RobotContainer.Control0.getRightX(), RobotContainer.Control0.getRightY(), RobotContainer.Control0.getLeftX(), RobotContainer.Control0.getLeftY());
   }
 
   @Override

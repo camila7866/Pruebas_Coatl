@@ -9,7 +9,6 @@ public class RobotContainer {
   private final Traccion rc_Traccion = new Traccion();
   private final TraccionCom rc_TraccionCom = new TraccionCom(rc_Traccion);
   public static XboxController Control0 = new XboxController(0);
-  public static XboxController Control1 = new XboxController(1);
   public RobotContainer() {
     configureButtonBindings();
     rc_Traccion.setDefaultCommand(rc_TraccionCom);
